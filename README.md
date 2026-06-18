@@ -193,8 +193,3 @@ api/
 ├── docker-compose.yml
 └── requirements.txt
 ```
-
----
-
-## Supervised by
-Abdelhak Mahmoudi — Master IT, Université Mohammed V, Faculté des Sciences Rabat
