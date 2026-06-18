@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(pip *)",
+      "PowerShell(py *)",
+      "Read(//c/Users/hp/AppData/Local/Programs/Python/**)",
+      "Read(//c/Program Files/**)",
+      "Bash(where python3.12)",
+      "Bash(where python3 *)",
+      "Bash(curl -s http://localhost:8000/api/v1/health)",
+      "Bash(curl -s \"http://localhost:8000/api/v1/products?eligible_only=true\")",
+      "Bash(curl -s -X POST http://localhost:8000/api/v1/predict -H \"Content-Type: application/json\" -d '{\"code_prod\": \"5BB010143\", \"horizon\": 4}')"
+    ]
+  }
+}
